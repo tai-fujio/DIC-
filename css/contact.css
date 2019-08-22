@@ -1,0 +1,39 @@
+.content table{
+  width: 100%;
+}
+
+.content tr{
+
+  height: 7rem;
+}
+
+.content th{
+
+  width: 150px;
+  /* 文字が入りきらないため文字サイズを調整 */
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+/* 入力フォームの幅を一括設定 */
+.form input{
+  width:480px;
+}
+
+.content p{
+  text-align: center;
+}
+
+
+.content p button{
+/* ボタンの大きさを任意に設定 */
+height: 30px;
+width: 80px;
+font-size: 2rem;
+color: #fff;
+background-color: turquoise;
+}
+
+.content p button:hover{
+  opacity: 0.6;
+}
