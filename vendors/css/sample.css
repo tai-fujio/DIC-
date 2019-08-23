@@ -5,6 +5,7 @@ html {
 
 body {
   text-align: center;
+  font-family: arial;
 }
 
 .main-header {
@@ -32,7 +33,7 @@ body {
   background-color: #333333;
   position:absolute;
   top:0;
-  height: 40px;
+  height: 60px;
   width: 100%;
 }
 
@@ -60,7 +61,7 @@ body {
 }
 
 
-/* 左右に分けルためブロックの位置をそれぞれ修正 */
+/* ブロックの位置を左右に分けるためそれぞれ修正 */
 .header .left{
   top: 0;
   left: 0;
@@ -79,14 +80,19 @@ width: 30%;
 }
 
 .about {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
+  position: relative;
+     
 
 }
 
 .about h1{
 
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  position: relative;
+
 }
 
 .about p{
@@ -101,7 +107,7 @@ width: 30%;
   background-color: #b3b3b3;
   width: 100%;
 
-  /* border: dotted; */
+   /* border: dotted;  */
 
 }
 
@@ -109,9 +115,9 @@ width: 30%;
 
   font-size: 1rem;
   position: relative;
-  top:10px;
-    /* border: dotted; */
-
+  top:0px;
+  font-weight: 900;
+  /* border: dotted; */
 }
 
 .function-images img{
